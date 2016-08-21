@@ -1,0 +1,39 @@
+//
+//  ColorME-Prefix.pch
+//  ColorME
+//
+//  Created by tuanvu on 8/21/16.
+//  Copyright © 2016 tuanvu. All rights reserved.
+//
+
+#ifndef ColorME_Prefix_pch
+#define ColorME_Prefix_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MenuController.h"
+#import "ProfileController.h"
+#import "MessController.h"
+#import "DashboardController.h"
+#import "TabBarController.h"
+#import "MainPageController.h"
+#import "NotifyController.h"
+#import "TabBarController.h"
+#import "Definitions.h"
+#import "AppDelegate.h"
+#import "UIImage+ImageWithColor.h"
+#import "BaseController.h"
+#import "AvatarCell.h"
+#import "THPController.h"
+#import "CTController.h"
+#import "DDController.h"
+#import "Utils.h"
+#import "MenuCell.h"
+#import "MMDrawerController/UIViewController+MMDrawerController.h"
+#import <MMDrawerController/MMDrawerController.h>
+#import <FontAwesomeKit/FontAwesomeKit.h>
+
+
+#endif /* ColorME_Prefix_pch */
