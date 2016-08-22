@@ -84,37 +84,37 @@ static NSString* const avatarCellId = @"avatarCellId";
 
 - (void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    UIViewController* viewSwitchTo = nil;
-    switch (indexPath.row) {
-    case 0: {
-        viewSwitchTo = [APPDELEGATE naviTHP];
-        break;
-    }
-    case 1: {
-        viewSwitchTo = [APPDELEGATE naviCT];
-        break;
-    }
-    case 2: {
-        viewSwitchTo = [APPDELEGATE naviDD];
-        break;
-    }
-    case 3: {
-
-        break;
-    }
-
-    default:
-        break;
-    }
-
-    if (viewSwitchTo) {
-
-        [self.mm_drawerController setCenterViewController:viewSwitchTo withCloseAnimation:YES completion:^(BOOL finished) {
-            
-            [tableView deselectRowAtIndexPath:indexPath animated:YES];
-
-        }];
-    }
+//    UIViewController* viewSwitchTo = nil;
+//    switch (indexPath.row) {
+//    case 0: {
+//        viewSwitchTo = [APPDELEGATE naviTHP];
+//        break;
+//    }
+//    case 1: {
+//        viewSwitchTo = [APPDELEGATE naviCT];
+//        break;
+//    }
+//    case 2: {
+//        viewSwitchTo = [APPDELEGATE naviDD];
+//        break;
+//    }
+//    case 3: {
+//
+//        break;
+//    }
+//
+//    default:
+//        break;
+//    }
+//
+//    if (viewSwitchTo) {
+//
+//        [self.mm_drawerController setCenterViewController:viewSwitchTo withCloseAnimation:YES completion:^(BOOL finished) {
+//            
+//            [tableView deselectRowAtIndexPath:indexPath animated:YES];
+//
+//        }];
+//    }
 }
 
 - (CGFloat)tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath
