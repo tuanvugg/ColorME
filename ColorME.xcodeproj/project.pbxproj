@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3844891D6AEDD400F183EB /* ClassList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3844881D6AEDD400F183EB /* ClassList.m */; };
+		6E38448B1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E38448A1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf */; };
+		6E38448C1D6AFD4400F183EB /* RobotoCondensed-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 6E38448A1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf */; };
+		6E38448F1D6AFEE600F183EB /* GenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38448E1D6AFEE600F183EB /* GenInfo.m */; };
+		6E3844931D6B009C00F183EB /* GenInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3844911D6B009C00F183EB /* GenInfoCell.m */; };
+		6E3844941D6B009C00F183EB /* GenInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3844921D6B009C00F183EB /* GenInfoCell.xib */; };
+		6EB63E721D6ACE6C00F9BC88 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E671D6ACE6C00F9BC88 /* UUBar.m */; };
+		6EB63E731D6ACE6C00F9BC88 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E691D6ACE6C00F9BC88 /* UUBarChart.m */; };
+		6EB63E741D6ACE6C00F9BC88 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E6B1D6ACE6C00F9BC88 /* UUChart.m */; };
+		6EB63E751D6ACE6C00F9BC88 /* UUChartConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E6D1D6ACE6C00F9BC88 /* UUChartConst.m */; };
+		6EB63E761D6ACE6C00F9BC88 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E6F1D6ACE6C00F9BC88 /* UUChartLabel.m */; };
+		6EB63E771D6ACE6C00F9BC88 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB63E711D6ACE6C00F9BC88 /* UULineChart.m */; };
 		6EBC52801D6977CD009FD534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC527F1D6977CD009FD534 /* main.m */; };
 		6EBC52831D6977CD009FD534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC52821D6977CD009FD534 /* AppDelegate.m */; };
 		6EBC52861D6977CD009FD534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC52851D6977CD009FD534 /* ViewController.m */; };
@@ -44,6 +56,11 @@
 		6EBC53151D69A475009FD534 /* CTController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC53131D69A475009FD534 /* CTController.xib */; };
 		6EBC53191D69A48B009FD534 /* THPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC53171D69A48B009FD534 /* THPController.m */; };
 		6EBC531A1D69A48B009FD534 /* THPController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC53181D69A48B009FD534 /* THPController.xib */; };
+		6EF74BDD1D6AB61F009B51D8 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EF74BDC1D6AB61F009B51D8 /* db.json */; };
+		6EF74BE31D6ABE98009B51D8 /* ClassListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF74BE11D6ABE98009B51D8 /* ClassListCell.m */; };
+		6EF74BE41D6ABE98009B51D8 /* ClassListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF74BE21D6ABE98009B51D8 /* ClassListCell.xib */; };
+		6EF74BE81D6ABEA6009B51D8 /* ChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF74BE61D6ABEA6009B51D8 /* ChartCell.m */; };
+		6EF74BE91D6ABEA6009B51D8 /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF74BE71D6ABEA6009B51D8 /* ChartCell.xib */; };
 		EE3BD0E733B6E3A6D1E4C83C /* libPods-ColorME.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7174DF3F7E73D34F221F3F1F /* libPods-ColorME.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +77,26 @@
 /* Begin PBXFileReference section */
 		11B21708B690E020FB4E6A0B /* Pods-ColorME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorME.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorME/Pods-ColorME.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1BA0FEC22CC2C5DD719C6E /* Pods-ColorME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorME.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorME/Pods-ColorME.release.xcconfig"; sourceTree = "<group>"; };
+		6E3844871D6AEDD400F183EB /* ClassList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassList.h; sourceTree = "<group>"; };
+		6E3844881D6AEDD400F183EB /* ClassList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassList.m; sourceTree = "<group>"; };
+		6E38448A1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		6E38448D1D6AFEE600F183EB /* GenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenInfo.h; sourceTree = "<group>"; };
+		6E38448E1D6AFEE600F183EB /* GenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenInfo.m; sourceTree = "<group>"; };
+		6E3844901D6B009C00F183EB /* GenInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenInfoCell.h; sourceTree = "<group>"; };
+		6E3844911D6B009C00F183EB /* GenInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenInfoCell.m; sourceTree = "<group>"; };
+		6E3844921D6B009C00F183EB /* GenInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenInfoCell.xib; sourceTree = "<group>"; };
+		6EB63E661D6ACE6C00F9BC88 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		6EB63E671D6ACE6C00F9BC88 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		6EB63E681D6ACE6C00F9BC88 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		6EB63E691D6ACE6C00F9BC88 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		6EB63E6A1D6ACE6C00F9BC88 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		6EB63E6B1D6ACE6C00F9BC88 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		6EB63E6C1D6ACE6C00F9BC88 /* UUChartConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartConst.h; sourceTree = "<group>"; };
+		6EB63E6D1D6ACE6C00F9BC88 /* UUChartConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartConst.m; sourceTree = "<group>"; };
+		6EB63E6E1D6ACE6C00F9BC88 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		6EB63E6F1D6ACE6C00F9BC88 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		6EB63E701D6ACE6C00F9BC88 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		6EB63E711D6ACE6C00F9BC88 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
 		6EBC527B1D6977CD009FD534 /* ColorME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBC527F1D6977CD009FD534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EBC52811D6977CD009FD534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,6 +157,13 @@
 		6EBC53161D69A48B009FD534 /* THPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPController.h; sourceTree = "<group>"; };
 		6EBC53171D69A48B009FD534 /* THPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPController.m; sourceTree = "<group>"; };
 		6EBC53181D69A48B009FD534 /* THPController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THPController.xib; sourceTree = "<group>"; };
+		6EF74BDC1D6AB61F009B51D8 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		6EF74BE01D6ABE98009B51D8 /* ClassListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassListCell.h; sourceTree = "<group>"; };
+		6EF74BE11D6ABE98009B51D8 /* ClassListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassListCell.m; sourceTree = "<group>"; };
+		6EF74BE21D6ABE98009B51D8 /* ClassListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassListCell.xib; sourceTree = "<group>"; };
+		6EF74BE51D6ABEA6009B51D8 /* ChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartCell.h; sourceTree = "<group>"; };
+		6EF74BE61D6ABEA6009B51D8 /* ChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartCell.m; sourceTree = "<group>"; };
+		6EF74BE71D6ABEA6009B51D8 /* ChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
 		7174DF3F7E73D34F221F3F1F /* libPods-ColorME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorME.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,6 +194,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6E3844831D6AED8500F183EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E3844871D6AEDD400F183EB /* ClassList.h */,
+				6E3844881D6AEDD400F183EB /* ClassList.m */,
+				6E38448D1D6AFEE600F183EB /* GenInfo.h */,
+				6E38448E1D6AFEE600F183EB /* GenInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EB63E651D6ACE6C00F9BC88 /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				6EB63E661D6ACE6C00F9BC88 /* UUBar.h */,
+				6EB63E671D6ACE6C00F9BC88 /* UUBar.m */,
+				6EB63E681D6ACE6C00F9BC88 /* UUBarChart.h */,
+				6EB63E691D6ACE6C00F9BC88 /* UUBarChart.m */,
+				6EB63E6A1D6ACE6C00F9BC88 /* UUChart.h */,
+				6EB63E6B1D6ACE6C00F9BC88 /* UUChart.m */,
+				6EB63E6C1D6ACE6C00F9BC88 /* UUChartConst.h */,
+				6EB63E6D1D6ACE6C00F9BC88 /* UUChartConst.m */,
+				6EB63E6E1D6ACE6C00F9BC88 /* UUChartLabel.h */,
+				6EB63E6F1D6ACE6C00F9BC88 /* UUChartLabel.m */,
+				6EB63E701D6ACE6C00F9BC88 /* UULineChart.h */,
+				6EB63E711D6ACE6C00F9BC88 /* UULineChart.m */,
+			);
+			path = UUChart;
+			sourceTree = "<group>";
+		};
 		6EBC52721D6977CD009FD534 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +247,7 @@
 		6EBC527D1D6977CD009FD534 /* ColorME */ = {
 			isa = PBXGroup;
 			children = (
+				6E3844831D6AED8500F183EB /* Model */,
 				6EBC52F01D698CFB009FD534 /* Helpper */,
 				6EBC52E31D698C59009FD534 /* UI */,
 				6EBC52E41D698C78009FD534 /* Controller */,
@@ -184,6 +259,7 @@
 				6EBC528A1D6977CD009FD534 /* Assets.xcassets */,
 				6EBC528C1D6977CD009FD534 /* LaunchScreen.storyboard */,
 				6EBC528F1D6977CD009FD534 /* Info.plist */,
+				6EF74BDC1D6AB61F009B51D8 /* db.json */,
 				6EBC527E1D6977CD009FD534 /* Supporting Files */,
 			);
 			path = ColorME;
@@ -291,8 +367,13 @@
 		6EBC52E31D698C59009FD534 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				6EF74BDF1D6ABE78009B51D8 /* ClassListCell */,
+				6EF74BDE1D6ABE3D009B51D8 /* ChartCell */,
 				6EBC52E21D698C46009FD534 /* MenuCell */,
 				6EBC53011D699394009FD534 /* AvatarCell */,
+				6E3844901D6B009C00F183EB /* GenInfoCell.h */,
+				6E3844911D6B009C00F183EB /* GenInfoCell.m */,
+				6E3844921D6B009C00F183EB /* GenInfoCell.xib */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -329,6 +410,8 @@
 		6EBC52F01D698CFB009FD534 /* Helpper */ = {
 			isa = PBXGroup;
 			children = (
+				6E38448A1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf */,
+				6EB63E651D6ACE6C00F9BC88 /* UUChart */,
 				6EBC52C91D69805D009FD534 /* ColorME-Prefix.pch */,
 				6EBC52F41D698E3A009FD534 /* Utils.h */,
 				6EBC52F51D698E3A009FD534 /* Utils.m */,
@@ -392,6 +475,26 @@
 				6EBC530D1D69A45F009FD534 /* DDController.xib */,
 			);
 			name = DDController;
+			sourceTree = "<group>";
+		};
+		6EF74BDE1D6ABE3D009B51D8 /* ChartCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EF74BE51D6ABEA6009B51D8 /* ChartCell.h */,
+				6EF74BE61D6ABEA6009B51D8 /* ChartCell.m */,
+				6EF74BE71D6ABEA6009B51D8 /* ChartCell.xib */,
+			);
+			name = ChartCell;
+			sourceTree = "<group>";
+		};
+		6EF74BDF1D6ABE78009B51D8 /* ClassListCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EF74BE01D6ABE98009B51D8 /* ClassListCell.h */,
+				6EF74BE11D6ABE98009B51D8 /* ClassListCell.m */,
+				6EF74BE21D6ABE98009B51D8 /* ClassListCell.xib */,
+			);
+			name = ClassListCell;
 			sourceTree = "<group>";
 		};
 		79885D60A640E76847FA7DB6 /* Pods */ = {
@@ -489,6 +592,7 @@
 				6EBC52A71D697B57009FD534 /* MenuController.xib in Resources */,
 				6EBC530F1D69A45F009FD534 /* DDController.xib in Resources */,
 				6EBC531A1D69A48B009FD534 /* THPController.xib in Resources */,
+				6EF74BDD1D6AB61F009B51D8 /* db.json in Resources */,
 				6EBC52B61D697E49009FD534 /* ProfileController.xib in Resources */,
 				6EBC53151D69A475009FD534 /* CTController.xib in Resources */,
 				6EBC52E11D698C42009FD534 /* MenuCell.xib in Resources */,
@@ -497,10 +601,14 @@
 				6EBC52BB1D697E5A009FD534 /* MessController.xib in Resources */,
 				6EBC52EF1D698CF1009FD534 /* LoginController.xib in Resources */,
 				6EBC528B1D6977CD009FD534 /* Assets.xcassets in Resources */,
+				6EF74BE41D6ABE98009B51D8 /* ClassListCell.xib in Resources */,
 				6EBC52D71D698417009FD534 /* NotifyController.xib in Resources */,
 				6EBC52891D6977CD009FD534 /* Main.storyboard in Resources */,
 				6EBC53001D699390009FD534 /* AvatarCell.xib in Resources */,
+				6EF74BE91D6ABEA6009B51D8 /* ChartCell.xib in Resources */,
 				6EBC53061D6998A4009FD534 /* logo.jpg in Resources */,
+				6E3844941D6B009C00F183EB /* GenInfoCell.xib in Resources */,
+				6E38448B1D6AFCE200F183EB /* RobotoCondensed-Regular.ttf in Resources */,
 				6EBC52DC1D69842C009FD534 /* MainPageController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,26 +675,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E38448C1D6AFD4400F183EB /* RobotoCondensed-Regular.ttf in Sources */,
+				6EB63E721D6ACE6C00F9BC88 /* UUBar.m in Sources */,
 				6EBC52CA1D69805D009FD534 /* ColorME-Prefix.pch in Sources */,
+				6E3844891D6AEDD400F183EB /* ClassList.m in Sources */,
 				6EBC52FB1D699202009FD534 /* BaseController.m in Sources */,
 				6EBC52A61D697B57009FD534 /* MenuController.m in Sources */,
 				6EBC52E01D698C42009FD534 /* MenuCell.m in Sources */,
 				6EBC52861D6977CD009FD534 /* ViewController.m in Sources */,
 				6EBC52831D6977CD009FD534 /* AppDelegate.m in Sources */,
 				6EBC53191D69A48B009FD534 /* THPController.m in Sources */,
+				6EB63E731D6ACE6C00F9BC88 /* UUBarChart.m in Sources */,
 				6EBC52FF1D699390009FD534 /* AvatarCell.m in Sources */,
 				6EBC53041D6996CA009FD534 /* UIImage+ImageWithColor.m in Sources */,
 				6EBC52F61D698E3A009FD534 /* Utils.m in Sources */,
+				6E3844931D6B009C00F183EB /* GenInfoCell.m in Sources */,
 				6EBC530E1D69A45F009FD534 /* DDController.m in Sources */,
 				6EBC52DB1D69842C009FD534 /* MainPageController.m in Sources */,
 				6EBC52EE1D698CF1009FD534 /* LoginController.m in Sources */,
 				6EBC52C51D697F49009FD534 /* TabBarController.m in Sources */,
+				6EB63E741D6ACE6C00F9BC88 /* UUChart.m in Sources */,
 				6EBC53141D69A475009FD534 /* CTController.m in Sources */,
+				6E38448F1D6AFEE600F183EB /* GenInfo.m in Sources */,
 				6EBC52BA1D697E5A009FD534 /* MessController.m in Sources */,
 				6EBC52AB1D697BE6009FD534 /* DashboardController.m in Sources */,
 				6EBC52801D6977CD009FD534 /* main.m in Sources */,
+				6EB63E761D6ACE6C00F9BC88 /* UUChartLabel.m in Sources */,
+				6EF74BE81D6ABEA6009B51D8 /* ChartCell.m in Sources */,
 				6EBC52D61D698417009FD534 /* NotifyController.m in Sources */,
+				6EB63E771D6ACE6C00F9BC88 /* UULineChart.m in Sources */,
 				6EBC52B51D697E49009FD534 /* ProfileController.m in Sources */,
+				6EB63E751D6ACE6C00F9BC88 /* UUChartConst.m in Sources */,
+				6EF74BE31D6ABE98009B51D8 /* ClassListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +839,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "ColorME/ColorME-Prefix.pch";
 				INFOPLIST_FILE = ColorME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.sinhviendev.ColorME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -732,6 +853,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "ColorME/ColorME-Prefix.pch";
 				INFOPLIST_FILE = ColorME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.sinhviendev.ColorME;
 				PRODUCT_NAME = "$(TARGET_NAME)";

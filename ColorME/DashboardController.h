@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BaseController.h"
 
-@interface DashboardController : BaseController
+@interface DashboardController : BaseController<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tblDashboard;
 
 @end

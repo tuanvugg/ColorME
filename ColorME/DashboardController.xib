@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DashboardController">
             <connections>
+                <outlet property="tblDashboard" destination="lcW-9t-h3v" id="NK8-gG-bti"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,23 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="lcW-9t-h3v">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cU9-wy-S3Z"/>
+                        <outlet property="delegate" destination="-1" id="gmI-fU-Nv6"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="lcW-9t-h3v" secondAttribute="bottom" id="F2x-G0-DGm"/>
+                <constraint firstAttribute="trailing" secondItem="lcW-9t-h3v" secondAttribute="trailing" id="G3S-gG-sW3"/>
+                <constraint firstItem="lcW-9t-h3v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ODu-kq-FjO"/>
+                <constraint firstItem="lcW-9t-h3v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Uto-2R-Rjh"/>
+            </constraints>
         </view>
     </objects>
 </document>
